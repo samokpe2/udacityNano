@@ -323,6 +323,7 @@ def search_artists():
             "id": artist.id,
             "name": artist.name,
             "num_upcoming_shows": num_upcoming
+        })
 
     response = {
         "count": len(artists),
