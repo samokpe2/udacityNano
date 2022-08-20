@@ -120,4 +120,3 @@ class Show(db.Model):
         return f'<Show {self.id} {self.start_time} artist_id={artist_id} venue_id={venue_id}>'
 
 
-#
